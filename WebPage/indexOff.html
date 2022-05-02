@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>smart home</title>
+    <link rel="stylesheet" href="styleNav.css">
+    <link rel="stylesheet" href="box.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <style>
+        .banner {
+            background: url("background.webp");
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+
+        section.bgimage {
+            background: var(--color-accent);
+            background-image: url("bg.png");
+            background-size: cover;
+            background-position: 50% 80%;
+            height: 50vh;
+        }
+
+        section.bgimage img {
+            width: 30vh;
+            max-width: 350px;
+        }
+
+        footer {
+            background: var(--color-accent);
+            height: 10vh;
+            min-height: 7em;
+            box-sizing: border-box;
+            padding: var(--box-padding);
+            background-color: #2C3333;
+            display: flex;
+            justify-content: center;
+        }
+
+
+        #a,
+        #b {
+            background-color: #EDF2F5;
+        }
+
+        footer p {
+            font-size: 1em;
+            color: white;
+        }
+
+        .continue {
+            display: flex;
+        }
+
+        .continue>div {
+            flex: 1;
+        }
+
+        .title1 {
+            font-size: 38px;
+            font-weight: 700;
+            max-width: 1250px;
+            margin: auto;
+            padding: 0 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="content">
+            <div class="logo">
+                <a href="#">Smart Home</a>
+            </div>
+            <ul class="menu-list">
+                <div class="icon cancel-btn">
+                    <i class="fas fa-times"></i>
+                </div>
+                <li><a href="#def">Definition</a></li>
+                <li><a href="#cuisine">Cuisine</a></li>
+                <li><a href="#chambre">Chambre</a></li>
+                <li><a href="#sallon">Sallon</a></li>
+                <li><a href="#bain">Salle de bain</a></li>
+            </ul>
+            <div class="icon menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <div class="banner"></div>
+
+
+
+
+    <div class="about" id="def">
+        <div class="content">
+            <div class="title">
+                <center> Smart Home / Maison Intelligente</center>
+            </div>
+            <center>
+                <p>Le terme Smart Home désigne la mise en réseau intelligente de différents composants au sein d’une
+                    maison,
+                    pilotés et surveillés de façon <br> centralisée à l’aide de terminaux. La véritable valeur ajoutée
+                    d’une maison connectée
+                    réside dans l’interaction intelligente entre les différents appareils. Grâce à la mise en réseau des
+                    différents composants,
+                    votre Système Bosch Smart Home contrôle des processus réguliers de façon entièrement automatisée,
+                    ce qui vous garantit une plus grande sécurité à l’intérieur de chez vous, ainsi qu’une atmosphère à
+                    la fois
+                    agréable et personnalisée. Une maison qui réfléchit avec vous et simplifie votre quotidien.</p>
+                <br><br>
+                <img src="gif1.gif" alt="kitchen" height="400" width="620">
+            </center>
+        </div>
+    </div>
+
+
+
+
+    <div class="a" id="a">
+        <div class="title1" id="cuisine">
+            <center> Cuisine</center> <br>
+        </div>
+        <div class="continue">
+
+            <div><img src="kitchen.jpg" alt="kitchen" height="400" width="620"></div>
+            <div class="c2">
+                <div>
+                    <center> Détails du capteur</center> <br>
+                </div>
+
+                <div class="box1">
+                    <div class="box">
+                        <div col-sm-9><img class="temp" src="img2.png" height="100" width="150"></div>
+                        <div>
+                            <div>
+                                <br>
+                                <font size="4" color="white">Light</font>(in celcius)
+                            </div><br>
+
+                            <form action="indexOn.html">
+                                <label class="switch">
+                                    <input type="checkbox" onclick="submit();">
+                                    <span class="slider round"></span>
+                                </label>
+                            </form>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="box">
+                        <div col-sm-9><img class="temp" src="img1.png" height="100" width="150"></div>
+                        <div>
+                            <div>
+                                <br>
+                                <font size="4" color="white">Light</font>(in celcius)
+                            </div><br>
+
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+                <br><br>
+                <div class="box1">
+
+
+                    <div class="box">
+                        <div col-sm-9><img class="temp" src="img3.png" height="100" width="150"></div>
+                        <div>
+                            <div>
+                                <br>
+                                <font size="4" color="white">Light</font>(in celcius)
+                            </div><br>
+
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="box">
+                        <div col-sm-9><img class="temp" src="img5.png" height="100" width="150"></div>
+                        <div>
+                            <div>
+                                <br>
+                                <font size="4" color="white">Light</font>(in celcius)
+                            </div><br>
+
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="a">
+        <div class="title1" id="chambre">
+            <center> Chambre</center> <br>
+        </div>
+        <div class="continue">
+
+            <div><img src="chambre2.gif.crdownload" alt="kitchen" height="400" width="630"></div>
+            <div class="c2">
+                <div>
+                    <center> Détails du capteur</center> <br>
+                </div>
+
+                <div class="box1">
+                    <div class="box">
+                        <div col-sm-9><img class="temp" src="img2.png" height="100" width="150"></div>
+                        <div>
+                            <div>
+                                <br>
+                                <font size="4" color="white">Light</font>(in celcius)
+                            </div><br>
+
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="box">
+                        <div col-sm-9><img class="temp" src="img1.png" height="100" width="150"></div>
+                        <div>
+                            <div>
+                                <br>
+                                <font size="4" color="white">Light</font>(in celcius)
+                            </div><br>
+
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+                <br><br>
+                <div class="box1">
+
+
+                    <div class="box">
+                        <div col-sm-9><img class="temp" src="img3.png" height="100" width="150"></div>
+                        <div>
+                            <div>
+                                <br>
+                                <font size="4" color="white">Light</font>(in celcius)
+                            </div><br>
+
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="box">
+                        <div col-sm-9><img class="temp" src="img5.png" height="100" width="150"></div>
+                        <div>
+                            <div>
+                                <br>
+                                <font size="4" color="white">Light</font>(in celcius)
+                            </div><br>
+
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="a" id="b">
+        <div class="title1" id="sallon">
+            <center> Sallon</center> <br>
+        </div>
+        <div class="continue">
+
+            <div><img src="sallon2.jpg" alt="kitchen" height="400" width="620"></div>
+            <div class="c2">
+                <div>
+                    <center> Détails du capteur</center> <br>
+                </div>
+
+                <div class="box1">
+                    <div class="box">
+                        <div col-sm-9><img class="temp" src="img2.png" height="100" width="150"></div>
+                        <div>
+                            <div>
+                                <br>
+                                <font size="4" color="white">Light</font>(in celcius)
+                            </div><br>
+
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="box">
+                        <div col-sm-9><img class="temp" src="img1.png" height="100" width="150"></div>
+                        <div>
+                            <div>
+                                <br>
+                                <font size="4" color="white">Light</font>(in celcius)
+                            </div><br>
+
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+                <br><br>
+                <div class="box1">
+
+
+                    <div class="box">
+                        <div col-sm-9><img class="temp" src="img3.png" height="100" width="150"></div>
+                        <div>
+                            <div>
+                                <br>
+                                <font size="4" color="white">Light</font>(in celcius)
+                            </div><br>
+
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="box">
+                        <div col-sm-9><img class="temp" src="img5.png" height="100" width="150"></div>
+                        <div>
+                            <div>
+                                <br>
+                                <font size="4" color="white">Light</font>(in celcius)
+                            </div><br>
+
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="a">
+        <div class="title1" id="bain">
+            <center> Salle De Bain</center> <br>
+        </div>
+        <div class="continue">
+
+            <div><img src="bain1.jpg" alt="kitchen" height="400" width="620"></div>
+            <div class="c2">
+                <div>
+                    <center> Détails du capteur</center> <br>
+                </div>
+
+                <div class="box1">
+                    <div class="box">
+                        <div col-sm-9><img class="temp" src="img2.png" height="100" width="150"></div>
+                        <div>
+                            <div>
+                                <br>
+                                <font size="4" color="white">Light</font>(in celcius)
+                            </div><br>
+
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="box">
+                        <div col-sm-9><img class="temp" src="img1.png" height="100" width="150"></div>
+                        <div>
+                            <div>
+                                <br>
+                                <font size="4" color="white">Light</font>(in celcius)
+                            </div><br>
+
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+                <br><br>
+                <div class="box1">
+
+
+                    <div class="box">
+                        <div col-sm-9><img class="temp" src="img3.png" height="100" width="150"></div>
+                        <div>
+                            <div>
+                                <br>
+                                <font size="4" color="white">Light</font>(in celcius)
+                            </div><br>
+
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="box">
+                        <div col-sm-9><img class="temp" src="img5.png" height="100" width="150"></div>
+                        <div>
+                            <div>
+                                <br>
+                                <font size="4" color="white">Light</font>(in celcius)
+                            </div><br>
+
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="bgimage">
+        <div class="inner center">
+            <center>
+                <br>
+                <br>
+                <picture>
+                    <source srcset="symbol.webp" type="image/webp">
+                    <source srcset="symbol.png" type="image/png">
+                    <img alt="Smart Home symbol" srcset="bg.webp">
+                </picture>
+            </center>
+        </div>
+    </section>
+
+
+    <footer class="center Y">
+        <div class="inner Magistral">
+            <center>
+                <p>NEWTON:</p>
+            </center>
+            <center>
+                <p>Smart home is the thing that just makes you feel</p>
+            </center>
+            <center>
+                <p>like you are in heaven guys where you where</p>
+            </center>
+            <center>
+                <p>sourended by apple trees</p>
+            </center>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        const body = document.querySelector("body");
+        const navbar = document.querySelector(".navbar");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        menuBtn.onclick = () => {
+            navbar.classList.add("show");
+            menuBtn.classList.add("hide");
+            body.classList.add("disabled");
+        }
+        cancelBtn.onclick = () => {
+            body.classList.remove("disabled");
+            navbar.classList.remove("show");
+            menuBtn.classList.remove("hide");
+        }
+        window.onscroll = () => {
+            this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+        }
+    </script>
+
+</body>
+
+</html>

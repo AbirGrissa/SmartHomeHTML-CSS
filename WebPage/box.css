@@ -1,0 +1,137 @@
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 36px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+
+
+/*echaker el barani eeli fih edora */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+/*edora l westaniya*/
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: beige;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+/*color mte7a*/
+input:checked+.slider {
+    background-color: #2196f3;
+}
+
+/*input:focus +.slider{
+        box-shadow: 0 0 1px #2196f3;
+    }*/
+
+/* lmachya wel jaya*/
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* etadwira fel chakel */
+.slider.round {
+    border-radius: 34px;
+}
+
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.box {
+    display: flex;
+    background: #2666CF;
+}
+.box1{
+    display:flex;
+    /*justify-content: space-between;*/
+}
+.box1>div{flex:1;
+margin: 20px;
+padding: 5px;
+}
+
+.banner {
+    background: url("background.webp");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+section.bgimage {
+    background: var(--color-accent);
+    background-image: url("bg.png");
+    background-size: cover;
+    background-position: 50% 80%;
+    height: 50vh;
+}
+
+section.bgimage img {
+    width: 30vh;
+    max-width: 350px;
+}
+
+footer {
+    background: var(--color-accent);
+    height: 10vh;
+    min-height: 7em;
+    box-sizing: border-box;
+    padding: var(--box-padding);
+    background-color: #2C3333;
+    display: flex;
+    justify-content: center;
+}
+
+
+#a,
+#b {
+    background-color: #EDF2F5;
+}
+
+footer p {
+    font-size: 1em;
+    color: white;
+}
+
+.continue {
+    display: flex;
+}
+
+.continue>div {
+    flex: 1;
+}
+
+.title1 {
+    font-size: 38px;
+    font-weight: 700;
+    max-width: 1250px;
+    margin: auto;
+    padding: 0 30px;
+}
